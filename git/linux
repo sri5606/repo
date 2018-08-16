@@ -1,0 +1,5 @@
+FROM centos
+MAINTAINER 'srinivas'
+RUN yum install -y httpd git
+MD ["httpd","DFOREGROUND"]
+EXPOSE 80
