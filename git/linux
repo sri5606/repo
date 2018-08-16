@@ -1,5 +1,6 @@
 FROM centos
 MAINTAINER 'srinivas'
 RUN yum install -y httpd git
-MD ["httpd","DFOREGROUND"]
+CMD ["httpd","DFOREGROUND"]
 EXPOSE 80
+AUTHOR:sri
